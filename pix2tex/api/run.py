@@ -4,7 +4,8 @@ import os
 
 
 def start_api(path='.'):
-    subprocess.call(['uvicorn', 'app:app', '--port', '8502'], cwd=path)
+    port = os.getenv('$PORT', '8502')
+    subprocess.call(['uvicorn', 'app:app', '--port', str(port)], cwd=path)
 
 
 def start_frontend(path='.'):
