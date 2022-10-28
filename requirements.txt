@@ -1,4 +1,3 @@
-http
 fastapi
 PIL
 io

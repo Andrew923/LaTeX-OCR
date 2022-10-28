@@ -1,4 +1,3 @@
-from http import HTTPStatus
 from fastapi import FastAPI, File, UploadFile
 from PIL import Image
 from io import BytesIO
@@ -19,10 +18,8 @@ async def load_model():
 
 @app.get('/')
 def root():
-    '''Health check.'''
     response = {
-        'message': HTTPStatus.OK.phrase,
-        'status-code': HTTPStatus.OK,
+        'message': "I'm a message",
         'data': {},
     }
     return response
