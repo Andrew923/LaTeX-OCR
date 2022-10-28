@@ -1,5 +1,6 @@
 fastapi
 Pillow
-git+https://github.com/pmeier/pytorch_wheel_installer
+torch
+entmax
 pix2tex[api]
 uvicorn
