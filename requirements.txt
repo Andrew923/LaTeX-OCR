@@ -3,4 +3,4 @@ fastapi
 PIL
 io
 pix2tex[api]
-gunicorn
+uvicorn

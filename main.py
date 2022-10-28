@@ -38,4 +38,3 @@ async def predict_from_bytes(file: bytes = File(...)) -> str:
     global model
     image = Image.open(BytesIO(file))
     return model(image, resize=False)
-
