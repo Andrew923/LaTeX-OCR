@@ -1,6 +1,6 @@
 fastapi
 Pillow
 torch
-pix2tex[api]
+pix2tex
 uvicorn
 gunicorn
