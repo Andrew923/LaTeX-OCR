@@ -1,5 +1,4 @@
 fastapi
 Pillow
-io
 pix2tex[api]
 uvicorn
