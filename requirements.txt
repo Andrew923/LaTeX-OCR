@@ -1,4 +1,5 @@
 fastapi==0.85.1
 Pillow==9.2.0
+torch==1.12.1
 pix2tex[api]
 gunicorn==20.1.0
