@@ -1,7 +1,4 @@
 fastapi==0.85.1
 Pillow==9.2.0
-torch
-torchvision
-torchaudio
-pix2tex[api]
+pix2tex==0.0.29
 gunicorn==20.1.0
