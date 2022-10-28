@@ -5,5 +5,4 @@ uvicorn
 gunicorn
 torch
 torch
-https://download.pytorch.org/whl/nightly/cpu/
 entmax
