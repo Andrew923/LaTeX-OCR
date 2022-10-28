@@ -4,3 +4,4 @@ torch
 entmax
 pix2tex[api]
 uvicorn
+gunicorn
