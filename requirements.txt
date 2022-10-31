@@ -1,4 +1,5 @@
-https://download.pytorch.org/whl/cu101/torch-1.8.1%2Bcu101-cp39-cp39-linux_x86_64.whl
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.1+cpu
 fastapi==0.85.1
 Pillow==9.2.0
 pix2tex==0.0.29
